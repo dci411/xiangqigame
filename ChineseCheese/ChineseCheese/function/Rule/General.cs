@@ -7,16 +7,17 @@ using System.Windows;
 
 namespace CNchess.function
 {
-    class Advisor : Rule
+     class General : Rule
     {
         public override bool moverule(Point end, Point start, double a, double b)
-        {//The guarantor will be in the ninth house
+        {//Ensure that Shuai will be in the ninth house
             if (end.X >= 3 && end.X < 7) return false;
-            if (!(end.Y >2 && end.Y < 6)) return false;
+            if (!(end.Y > 2 && end.Y < 6)) return false;
 
-            //Guarantors walk diagonally one grid at a time
-            if (Math.Abs(a) == 1 && Math.Abs(b) == 1) return true;
+            //Keep handsome and walk one grid at a time
+            if ((Math.Abs(a) + Math.Abs(b)) == 1.0) return true;
+
             return false;
         }
-    }
+        }
 }

@@ -18,4 +18,3 @@ C:\Users\w\Desktop\新建文件夹\ChineseCheese\ChineseCheese\obj\Debug\CNchess
 C:\Users\w\Desktop\新建文件夹\ChineseCheese\ChineseCheese\obj\Debug\StartWindow.g.cs
 C:\Users\w\Desktop\新建文件夹\ChineseCheese\ChineseCheese\obj\Debug\StartWindow.baml
 C:\Users\w\Desktop\新建文件夹\ChineseCheese\ChineseCheese\bin\Debug\sounds\click.wav
-C:\Users\w\Desktop\新建文件夹\ChineseCheese\ChineseCheese\obj\Debug\CNchess.csproj.AssemblyReference.cache

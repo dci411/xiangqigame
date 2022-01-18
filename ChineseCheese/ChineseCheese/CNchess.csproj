@@ -80,7 +80,7 @@
     <Compile Include="function\Board.cs" />
     <Compile Include="function\Decide.cs" />
     <Compile Include="function\Event.cs" />
-    <Compile Include="function\General.cs" />
+    <Compile Include="function\Rule\General.cs" />
     <Compile Include="function\Rule\Advisor.cs" />
     <Compile Include="function\Rule\Cannon.cs" />
     <Compile Include="function\Rule\Car.cs" />
